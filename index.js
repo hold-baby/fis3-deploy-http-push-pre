@@ -10,7 +10,6 @@ prompt.start();
 function upload(receiver, to, data, release, content, file, callback) {
   var subpath = file.subpath;
   
-  
   data['to'] = _(path.join(to, release));
   fis.util.upload(
       //url, request options, post data, file
@@ -278,8 +277,6 @@ module.exports = function(options, modified, total, callback) {
   }else{
     getNext();
   }
-
-  
 };
 
 module.exports.options = {

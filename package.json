@@ -1,5 +1,5 @@
 {
-  "name": "fis3-http-push",
+  "name": "fis3-deploy-http-push-pre",
   "version": "0.1.0",
   "description": "fis3-deploy-http-push extensions",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hold-baby/fis3-http-push.git"
+    "url": "git+https://github.com/hold-baby/fis3-deploy-http-push-pre.git"
   },
   "keywords": [
     "fis",
     "fis3-deploy-http-push",
-    "fis3-http-push"
+    "fis3-deploy-http-push-pre"
   ],
   "author": "hold-baby",
   "license": "MIT",
@@ -21,7 +21,7 @@
     "prompt": "1.0.0"
   },
   "bugs": {
-    "url": "https://github.com/hold-baby/fis3-http-push/issues"
+    "url": "https://github.com/hold-baby/fis3-deploy-http-push-pre/issues"
   },
-  "homepage": "https://github.com/hold-baby/fis3-http-push#readme"
+  "homepage": "https://github.com/hold-baby/fis3-deploy-http-push-pre#readme"
 }
