@@ -1,6 +1,6 @@
 {
   "name": "fis3-http-push",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "fis3-deploy-http-push extensions",
   "main": "index.js",
   "scripts": {
