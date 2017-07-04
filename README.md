@@ -7,7 +7,7 @@ FIS 默认插件fis3-deploy-http-push的扩展插件，在原有插件基础上�
 全局安装或者本地安装都可以。
 
 ```
-npm install fis3-deploy-http-push --save-dev
+npm install fis3-deploy-http-push-pre --save-dev
 ```
 
 ## 扩展初衷
@@ -21,7 +21,7 @@ npm install fis3-deploy-http-push --save-dev
 
 ```javascript
 fis.match('*.js', {
-    deploy: fis.plugin('http-push', {
+    deploy: fis.plugin('http-push-pre', {
         //如果配置了receiver，fis会把文件逐个post到接收端上
         receiver: 'http://www.example.com:8080/receiver.php',
         //这个参数会跟随post请求一起发送
@@ -74,7 +74,7 @@ fis.match('**', {
           token: fis.get('project.token')
         }
       };
-      require('fis3-deploy-http-push').apply(this, arguments);
+      require('fis3-deploy-http-push-pre').apply(this, arguments);
     }
   ]
 });
