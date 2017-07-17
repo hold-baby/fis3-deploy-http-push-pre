@@ -1,5 +1,6 @@
 /**
  * fis.baidu.com
+ * Edited by hold-baby @2017/07/17
  */
 var _ = fis.util;
 var path = require('path');

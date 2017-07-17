@@ -7,7 +7,7 @@ FIS 默认插件fis3-deploy-http-push的扩展插件，在原有插件基础上�
 全局安装或者本地安装都可以。
 
 ```
-npm install fis3-deploy-http-push-pre --save-dev
+$ npm install fis3-deploy-http-push-pre --save-dev
 ```
 
 ## 扩展初衷
