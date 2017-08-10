@@ -1,6 +1,7 @@
 # fis3 http 部署插件
 
 FIS 默认插件fis3-deploy-http-push的扩展插件，在原有插件基础上扩展提供上传前调用借口服务。
+[服务器接收部署(node)](http://www.jianshu.com/p/ab131cb3f012)
 
 ## 安装
 
